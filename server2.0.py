@@ -5,7 +5,7 @@ import time
 from tkinter import *                    #tkinter is used to make the graphical user interface
 from tkinter import messagebox           #for prompts and messageboxes
 global T
-mydb = mysql.connector.connect(host="localhost", user="root", passwd="enikkariyam")  #connects to mysql
+mydb = mysql.connector.connect(host="localhost", user="root", passwd="")  #connects to mysql
 mycursor = mydb.cursor()
 mycursor.execute("create database messaging")
 mycursor.execute("use messaging")     #creates and uses the database messaging
