@@ -11,9 +11,9 @@ gamesign={0:" ",1:"X",2:"O"}
 
 root=Tk()
 root.geometry("300x297")
-img=Image.open("C:/Users/manu/PycharmProjects/pythonProject/ticpic.jpg")
-local=PhotoImage(file="C:/Users/manu/Pictures/local1.png")
-online=PhotoImage(file="C:/Users/manu/Pictures/online1.png")
+img=Image.open("ticpic.jpg")
+local=PhotoImage(file="C:local1.png")
+online=PhotoImage(file="C:online1.png")
 render=ImageTk.PhotoImage(img)
 
 myfont = tkFont.Font(family='Helvetica', size=36, weight=tkFont.BOLD)
